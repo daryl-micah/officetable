@@ -60,13 +60,4 @@ OfficeTable uses Swiggy MCP as the execution layer:
 ---
 
 ## High-level Architecture
-
-Client (Admin + Employees)
-        ↓
-Backend API (Node.js)
-        ↓
-Agent Layer (LLM + Orchestration Logic)
-        ↓
-Swiggy MCP (Food APIs)
-        ↓
-Order Execution + Tracking
+Client (Admin + Employees) -> Backend API (Node.js) -> Agent Layer (LLM + Orchestration Logic) -> Swiggy MCP (Food APIs) -> Order Execution + Tracking
